@@ -74,3 +74,64 @@
 
 # myFun()
 # print (name)
+
+
+# Declear variable
+# num = str(12) # 12 as string
+# num = int(12) # 12
+# num = float(12) # 12.0
+# num = float(12.55) # 12.55
+# num = int(12.55) # 12
+
+# string for multiple line
+# sentents = """Hello this is LengTech,
+#     helo
+#     helo
+#     helo
+#     helo
+# """
+ 
+# print (sentents)
+
+# length
+# sentents = "Hello this is LengTech"
+# print (len(sentents)) # 22
+# print ("Hello" in sentents) # True
+# print ("hello" in sentents) # False
+# print ("notHello" not in sentents) # True
+# print (sentents[2:5]) # llo
+# print (sentents[2:]) # llo this is LengTech
+# print (sentents[:5]) # Hello
+# print (sentents[:-5]) # Hello this is Len
+# print (sentents.upper()) # HELLO THIS IS LENGTECH
+# print (sentents.lower()) # hello this is lengtech
+
+# sentents = "hello"
+# print (sentents.capitalize()) # Hello
+
+# sentents = "      hello guys  "
+# print (sentents.strip()) # hello guys  | it cut all space
+# print (sentents) #       hello guys | it good for Database
+
+# print (sentents.replace(" ", "")) # helloguys
+# sentents = "hello,guys"
+# print (sentents.replace(",", " ")) # hello guys
+
+# sentents = "hello,guys"
+# print (sentents.split(",")) # ['hello', 'guys']
+
+# sentents = "hello,guys\'"
+# print (sentents) # hello,guys'
+
+# sentents = "hello,guys\\\\"
+# print (sentents) # hello,guys\\
+
+# sentents = "hello guys \n hi"
+# print (sentents) # hello guys 
+#                     # hi
+
+# sentents = "hello guys hi"
+# print (sentents.endswith("hi")) # True
+
+
+
